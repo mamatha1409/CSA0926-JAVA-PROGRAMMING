@@ -1,0 +1,29 @@
+public class RightTriangle
+{
+
+    public static void main(String[] args) 
+    {
+
+        int n = 5; 
+
+        int numStars = 1; 
+ 
+
+        for (int i = 1; i <= n; i++) 
+        {
+
+            for (int j = 1; j <= numStars; j++) 
+            { 
+
+                System.out.print("* ");
+
+            }
+
+            numStars++; 
+
+            System.out.println(); 
+
+      }
+
+   }
+}
